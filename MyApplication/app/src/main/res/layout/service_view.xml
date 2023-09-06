@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/Picture"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        app:srcCompat="@drawable/service" />
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:text="Descripton"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:text="@string/title_activity_home_page"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        >
+
+    </TextView>
+</LinearLayout>
