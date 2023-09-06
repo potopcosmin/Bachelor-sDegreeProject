@@ -295,7 +295,7 @@ if(lastLoc==null){
                 .url("https://routes.googleapis.com/directions/v2:computeRoutes")
                 .post(requestBody)
                 .addHeader("X-Goog-FieldMask", "routes.duration,routes.distanceMeters,routes.polyline.encodedPolyline")
-                .addHeader("X-Goog-Api-Key", "AIzaSyDurGfa4o2MAGmzxvJu-DtCcRTP-5w0D6c").build();
+                .addHeader("X-Goog-Api-Key", "AIzaSyDurCcRTP-5w0D6c").build();
 
         CountDownLatch latch = new CountDownLatch(1);
         okHttpClient.newCall(request).enqueue(new Callback() {
